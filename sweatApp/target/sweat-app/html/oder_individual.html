@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的订单</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+    <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.ie8polyfill.min.js"></script>
+    <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.widgets.helper.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/oder_individual.css">
+</head>
+<body>
+    <h4 class="am-text-center head">
+        <div class="am-g">
+            <div class="am-u-sm-4 am-text-left"><i class="am-icon-angle-left"></i></div>
+            <div class="am-u-sm-4">我的订单</div>
+            <div class="am-u-sm-4 am-text-right"><i class="am-icon-cog"></i></div>
+        </div>
+    </h4>
+    <div class="content">
+        <div class="am-form-group am-form-icon search am-margin-xs">
+            <i class="am-icon-search"></i>
+            <input type="text" class="am-form-field round" placeholder="Search">
+        </div>
+    </div>
+    <div class="am-g ti">
+        <div class="am-u-sm-6 bor am-text-center" style="border-right: 1px solid #ccc">未完成</div>
+        <div class="am-u-sm-6 bor am-text-center">已完成</div>
+    </div>
+    <!--订单s-->
+    <div class="items am-margin-sm round">
+        <div class="info am-padding-sm am-padding-bottom-0">
+            <span class="title">
+                <i class="am-icon-user am-icon-sm" style="font-size: 1.2rem"></i>
+                <span>XXX商户</span>
+                <i class="am-icon-chevron-right"  style="font-size: 1.2rem"></i>
+            </span>
+            <span class="am-fr am-text-danger">交易成功</span>
+        </div>
+        <div class="prd am-padding-sm">
+            <div class="am-g">
+                <div class="am-u-sm-5 am-padding-0">
+                    <img src="http://iph.href.lu/130x85?text=%E5%95%86%E5%93%81" width="100%"/>
+                </div>
+                <div class="am-u-sm-7">
+                    <div class="am-fl" style="max-width: 9rem">樱花短信水</div>
+                    <div class="am-fr">8件</div>
+                    <div class="clear am-margin-bottom-xs">成交量 50件</div>
+                    <button type="button" class="am-btn am-btn-warning am-btn-xs round">评价</button>
+                    <button type="button" class="am-btn am-btn-danger am-btn-xs round">删除</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="items am-margin-sm round">
+        <div class="info am-padding-sm am-padding-bottom-0">
+            <span class="title">
+                <i class="am-icon-user am-icon-sm" style="font-size: 1.2rem"></i>
+                <span>XXX商户</span>
+                <i class="am-icon-chevron-right"  style="font-size: 1.2rem"></i>
+            </span>
+            <span class="am-fr am-text-success">正在进行</span>
+        </div>
+        <div class="prd am-padding-sm">
+            <div class="am-g">
+                <div class="am-u-sm-5 am-padding-0">
+                    <img src="http://iph.href.lu/130x85?text=%E5%95%86%E5%93%81" width="100%"/>
+                </div>
+                <div class="am-u-sm-7">
+                    <div class="am-fl" style="max-width: 9rem">樱花短信水</div>
+                    <div class="am-fr">8件</div>
+                    <div class="clear am-margin-bottom-xs">成交量 50件</div>
+                    <button type="button" class="am-btn am-btn-primary am-btn-xs round">查看</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--订单e-->
+</body>
+</html>

@@ -1,0 +1,30 @@
+i{
+    color: #666;
+}
+.content{
+    background: #0E90D2;
+    padding: .6rem 1.4rem;
+}
+.search{
+    color: #ccc;
+}
+.bor{
+    padding: .6rem;
+}
+.ti{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.items{
+    border: 1px solid #ececec;
+    background: #fff;
+}
+.title i{
+    color: #666;
+}
+.info{
+    font-size: 1.4rem;
+}
+.prd{
+    font-size: 1.2rem;
+}

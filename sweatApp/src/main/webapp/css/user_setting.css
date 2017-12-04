@@ -1,0 +1,20 @@
+.am-active a {
+    background-color: rgb(59, 180 ,242)!important;
+    border: none!important;
+    color: #fff!important;
+}
+.messages {
+    list-style-type: none;
+}
+.messages li {
+    line-height: 3rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.outBtn{
+    background: rgb(221, 81, 76);
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.8rem;
+}

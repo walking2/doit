@@ -1,0 +1,79 @@
+.bo{
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    padding: .6rem;
+    margin-top: calc(100% - 15em);
+}
+.in{
+    border: 1px solid #ccc;
+    height: 3rem;
+    border-radius: 5px!important;
+    background: none!important;
+    width: 75%;
+}
+.textTitle{
+    color: #ffffff;
+}
+html{
+    height: 100%;
+}
+body{
+    background: url("../img/bk.jpg") no-repeat;
+    height: 100%;
+    color: #ffffff;
+}
+.lable-input{
+    display: flex;
+    justify-content: flex-start;
+    height: 3.5rem;
+    border-bottom: 1px solid #969292;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.lable-input>div:nth-child(1){
+    width: 15%;
+    padding-left: .5rem;
+}
+.lable-input>div:nth-child(2){
+    width: 60%;
+}
+.lable-input>div:nth-child(2)>input{
+    color: #fff;
+}
+.lable-input>div:nth-child(3){
+    width: 25%;
+    text-align: right;
+    padding-right: .5rem;
+    font-size: 1.375rem;
+    color: #fff;
+}
+.lable-input>div.right-down{
+   /* color: #9c9b9b;*/
+    color: #9c9b9b;
+    font-size: 30px;
+}
+.lable-input div input{
+    border: none !important;
+    outline:none !important;
+    background: none !important;
+}
+.difine-btn{
+    width: 100%;
+    height: 3.4rem;
+    background: #883131;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.login-footer{
+    color: #929191;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.login-footer a{
+    color: #fff;
+}

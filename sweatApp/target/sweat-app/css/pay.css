@@ -1,0 +1,15 @@
+.plan{
+    background: #0E90D2;
+}
+.plan2{
+    background: #DD4E00;
+}
+.footer{
+    color: #cccccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.line2{
+    border-bottom: 1px solid #ddd;
+}
